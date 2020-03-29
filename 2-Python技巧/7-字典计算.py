@@ -4,7 +4,8 @@
 # @user: Administrator
 # @fileName: 字典计算.py
 # @description: 对于字典进行各种计算,最大值,最小值,排序等
-# 用于对于字典执行: 最小值 最大值,排序等计算
+#   用于对于字典执行: 最小值 最大值,排序等计算
+
 
 def dictionary_calculation():
     prices = {
