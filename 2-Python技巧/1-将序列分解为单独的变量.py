@@ -44,7 +44,7 @@ def assignmentDecompression():
 
 # 解压赋值变量,给多个对象,并且解决元素数量和变量名不匹配的问题
 # 通过 * 表达式进行变量分解,位置不限制
-def assignmentDecompressionValueError():
+def assignment_decompression_value_error():
     def drop_first_last(grades):
         first, *middle, last = grades
         return avg(middle)
