@@ -24,9 +24,6 @@ def collections_counter():
     print(word_counts['not'])
 
 
-
-
-
 def main():
     collections_counter()
 
