@@ -8,6 +8,7 @@
 
 from itertools import zip_longest
 
+
 def zip_example():
     # zip 迭代, 返回的是一个元组(x,y)的迭代器, 其中 x 来源于a, y来自于b;
     # 一旦到达某个序列的结尾, 迭代宣告结束;
@@ -17,19 +18,30 @@ def zip_example():
     for x, y in zip(xpts, ypts):
         print(x, y)
 
+
 def zip_longest_example():
     # itertools.zip_longest() 来代替执行输出最长的序列
     a = [1, 2, 3]
     b = ['w', 'x', 'y', 'z']
-    for one in zip_longest(a, b,fillvalue=0):
+    for one in zip_longest(a, b, fillvalue=0):
         print(one)
 
 
+def dict_zip_example():
+    # 将下列序列打包并且声称一个字典
+    headers = ['name', 'shares', 'price']
+    values = ['ACME', 100, 490.1]
+    dict_zip = dict(zip(headers, values))
+    print(dict_zip)
+    # 打印 zip 函数中的对应元素, zip()函数返回的结果是是一个迭代器，可以使用 list 函数保存在列表中
+    for i in zip(headers, values):
+        print(i)
+    print(list(zip(headers, values)))
+
 
 def main():
-    zip_longest_example()
+    dict_zip_example()
 
 
 if __name__ == '__main__':
     main()
-    
