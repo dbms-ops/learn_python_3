@@ -14,8 +14,15 @@ import os
 
 
 def os_open(filename='/tmp/filename.txt'):
+    """
+        文件一共被打开了两次，当高层的文件对象被关闭或者被破坏时，底层的文件描述符也会被关闭。可以给 open 函数传递一个 closefd=False
+    :param filename:
+    :return:
+    """
+    # open a low-level file descriptor
     fd = os.open(filename, os.O_WRONLY | os.O_CREAT)
-    f = open(fd, 'wt')
+    # Turn into a proper file
+    f = open(fd, 'wt', closefd=False)
     f.write('Hello world\n')
     f.close()
 

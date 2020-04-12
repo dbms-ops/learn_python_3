@@ -6,13 +6,14 @@
 # @description:
 #   通过下标访问列表或者元组中元素的代码,往往难以阅读,可以通过名称来访问元素;
 #   通过 collections.namedtuple() 函数通过一个普通元组来解决;
-# 
+#
 
 from collections import namedtuple
 
+
 def named_tuple():
     # 使用 命名元组对于里面的值是不能够进行更改的
-    Subscribe = namedtuple('Subscribe',['addr','joined'])
+    Subscribe = namedtuple('Subscribe', ['addr', 'joined'])
     sub = Subscribe('jonesy@example.com', '2012-10-19')
     print('sub.addr', sub.addr)
     print('sub joined', sub.joined)
@@ -36,11 +37,11 @@ def named_tuple_replace():
     s = s._replace(shares=75)
     print('修改后的s ', s)
 
+
 def dict_to_stock(s):
     Stock = namedtuple('Stock', ['name', 'shares', 'price', 'date', 'time'])
     stock_prototype = Stock('', 0, 0.0, None, None)
     return stock_prototype._replace(**s)
-
 
 
 def main():
@@ -51,6 +52,4 @@ def main():
 
 
 if __name__ == '__main__':
-
     main()
-    
