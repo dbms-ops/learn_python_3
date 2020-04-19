@@ -4,7 +4,8 @@
 # user: lixun
 # filename: 匿名函数捕获变量值
 # description:
-# 
+#
+
 
 def runing_binding():
     """

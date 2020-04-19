@@ -19,13 +19,15 @@ def timethis(func):
     :param func:
     :return:
     """
+
     @wraps(func)
-    def wrapper(*args,**kwargs):
+    def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)
         end = time.time()
         print(func.__name__, end - start)
         return result
+
     return wrapper
 
 
@@ -35,4 +37,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
