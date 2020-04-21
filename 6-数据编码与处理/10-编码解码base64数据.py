@@ -1,5 +1,5 @@
-#!/data1/Python2.7/bin/python2.7
 # -*-coding:utf-8-*-
+# !/data1/Python2.7/bin/python2.7
 # @date: 2020/4/14 20:42
 # @user: Administrator
 # @fileName: 编码解码base64数据
