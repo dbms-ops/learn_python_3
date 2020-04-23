@@ -34,7 +34,7 @@ class Person:
 
 
 def main():
-    tom = Person('jerry', 12)
+    tom = Person('mouse', 12)
     print(tom.name, tom.age)
     jerry = Person(12,41)
 
