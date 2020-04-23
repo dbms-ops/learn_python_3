@@ -26,7 +26,7 @@ class User():
 
 
 def sort_not_compare():
-    users = [User(23,'li','name'), User(3,'tom', 'jerry'), User(99,'Alice','Bob')]
+    users = [User(23,'li','name'), User(3,'tom', 'mouse'), User(99,'Alice','Bob')]
     print(users)
     # 使用 attrgetter 来构造 key
     print(list(sorted(users, key=attrgetter('user_id'))))
