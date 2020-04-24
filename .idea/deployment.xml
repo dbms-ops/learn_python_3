@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="python@103.227.123.225:6401">
+  <component name="PublishConfigData" autoUpload="Always" serverName="python@103.227.123.225:6401">
     <serverData>
+      <paths name="python27@103.227.123.225:6401">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="python@103.227.123.225:6401">
         <serverdata>
           <mappings>
@@ -9,6 +16,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@103.227.123.225:6401">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

@@ -17,7 +17,7 @@ def main():
     print(cfg.sections())
     print(cfg.get('installation','library'))
     cfg.getboolean('debug','log_errors')
-
+    
 
 if __name__ == '__main__':
     main()
