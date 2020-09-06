@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba24605b-7374-47ce-863d-42e81cd85eef" name="Default Changelist" comment="" />
+    <list default="true" id="ba24605b-7374-47ce-863d-42e81cd85eef" name="Default Changelist" comment="目录规划更改">
+      <change beforePath="$PROJECT_DIR$/../python_learn/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_learn/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_learn/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_learn/.idea/remote-mappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_learn/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +55,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/2-字符串和文本/1-使用多个界定符分割字符串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="511">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../python_learn/2_常见数据库模块/1_scapy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding>
+                <element signature="e#148#171#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4-迭代器与生成器/6-带有外部状态的生成器函数.py" />
         <option value="$PROJECT_DIR$/4-迭代器与生成器/7-迭代器切片.py" />
         <option value="$PROJECT_DIR$/4-迭代器与生成器/8-跳过可迭代对象的开始部分.py" />
         <option value="$PROJECT_DIR$/4-迭代器与生成器/9-排列组合的迭代.py" />
@@ -126,6 +141,7 @@
         <option value="$PROJECT_DIR$/2-字符串和文本/11-删除字符串中不需要的字符.py" />
         <option value="$PROJECT_DIR$/15-测试模块/1-configParser.py" />
         <option value="$PROJECT_DIR$/2-字符串和文本/1-使用多个界定符分割字符串.py" />
+        <option value="$PROJECT_DIR$/../python_learn/2_常见数据库模块/1_scapy.py" />
       </list>
     </option>
   </component>
@@ -147,6 +163,11 @@
               <item name="python_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="2_常见数据库模块" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +180,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3-使用shell通配符匹配字符串">
+  <component name="RunManager" selected="Python.1_scapy">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,28 +244,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1-将序列分解为单独的变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-数据结构和算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-数据结构和算法/1-将序列分解为单独的变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="1-使用多个界定符分割字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -305,6 +304,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2-字符串和文本/11-删除字符串中不需要的字符.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_scapy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_learn/2_常见数据库模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_learn/2_常见数据库模块/1_scapy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -440,11 +461,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_scapy" />
         <item itemvalue="Python.3-使用shell通配符匹配字符串" />
         <item itemvalue="Python.1-configParser" />
         <item itemvalue="Python.11-删除字符串中不需要的字符" />
         <item itemvalue="Python.2-字符串开头或者结尾匹配" />
-        <item itemvalue="Python.1-将序列分解为单独的变量" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +507,7 @@
       <workItem from="1592025830290" duration="2936000" />
       <workItem from="1592032438120" duration="1458000" />
       <workItem from="1592661282404" duration="1901000" />
-      <workItem from="1599318169139" duration="1497000" />
+      <workItem from="1599318169139" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="add 7 8 9 10 11 12">
       <created>1585491513936</created>
@@ -586,32 +607,49 @@
       <option name="project" value="LOCAL" />
       <updated>1599363945872</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="目录规划更改">
+      <created>1599364222950</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599364222950</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98625000" />
+    <option name="totallyTimeSpent" value="103404000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1271" y="29" width="407" height="644" id="Project" order="0" type="FLOATING" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49815726" weight="0.36212277" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49815726" visible="true" weight="0.36212277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298647" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.45577523" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49938574" weight="0.32882413" />
       <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49938574" weight="0.3298647" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.516129" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50184274" side_tool="true" weight="0.22164412" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.25598335" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.433923" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -685,42 +723,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learn_python_3$3_shell.coverage" NAME="3-使用shell通配符匹配字符串 Coverage Results" MODIFIED="1599319010113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-字符串和文本" />
+    <SUITE FILE_PATH="coverage/python_learn$1_scapy.coverage" NAME="1_scapy Coverage Results" MODIFIED="1599371238707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_learn/2_常见数据库模块" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/5-文件与IO/7-读写压缩文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#197#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/5-文件与IO/8-固定大小记录的文件迭代.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/5-文件与IO/6-字符串的IO操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/5-文件与IO/10-内存映射的二进制文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#198#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/5-文件与IO/9-读取二进制数据到可变缓冲区中.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1018,8 +1023,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../python_learn/1_learn_python_3/2-字符串和文本/1-使用多个界定符分割字符串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="511">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/remote_sources/-1493833526/-1301823744/scapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/remote_sources/-1493833526/-1301823744/scapy/utils6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/remote_sources/-1493833526/-1301823744/scapy/all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_learn/2_常见数据库模块/1_scapy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#148#171#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

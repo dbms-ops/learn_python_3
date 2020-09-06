@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always">
+  <component name="PublishConfigData" autoUpload="Always" serverName="python_learn">
     <serverData>
-      <paths name="learn_python_3">
+      <paths name="python_learn">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/learn_python_3" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/learn_python_3" local="$PROJECT_DIR$/../python_learn" />
           </mappings>
         </serverdata>
       </paths>
