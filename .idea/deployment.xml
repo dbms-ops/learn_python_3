@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="python@103.227.123.225:6401">
+  <component name="PublishConfigData" autoUpload="Always">
     <serverData>
-      <paths name="python27@103.227.123.225:6401">
+      <paths name="learn_python_3">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="python@103.227.123.225:6401">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/pycharm_project_233" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="root@103.227.123.225:6401">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/tmp/learn_python_3" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

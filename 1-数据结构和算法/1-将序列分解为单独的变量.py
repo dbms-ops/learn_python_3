@@ -9,7 +9,7 @@
 from audioop import avg
 
 
-def assignmentDecompression():
+def assignment_decompression():
     # 元组赋值解压
     x, y = (4, 5)
     print(x, y)
@@ -48,14 +48,15 @@ def assignment_decompression_value_error():
     def drop_first_last(grades):
         first, *middle, last = grades
         return avg(middle)
-    user_recovrd = ('Dave','dave@example.com','773-555-1212','847-555-1212')
+
+    user_recovrd = ('Dave', 'dave@example.com', '773-555-1212', '847-555-1212')
     name, email, *phone_numbers = user_recovrd
     print(name, email)
     print(phone_numbers)
 
 
 def main():
-    assignmentDecompressionValueError()
+    assignment_decompression_value_error()
 
 
 if __name__ == '__main__':

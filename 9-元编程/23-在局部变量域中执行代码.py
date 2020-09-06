@@ -7,6 +7,7 @@
 #   ;
 # ;
 
+
 def test():
     a = 13
     loc = locals()

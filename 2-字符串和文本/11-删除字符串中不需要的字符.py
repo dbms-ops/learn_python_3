@@ -23,8 +23,8 @@ def string_strip():
 
     # strip只能够对于左右两边的字符串去掉不需要的字符,无法对于字符串中间的字符进行替换
     s = ' hello   world \n'
-    print(s.replace(' ',''))
-    print(re.sub('\s+',' ',s))
+    print(s.replace(' ', ''))
+    print(re.sub('\s+', ' ', s))
 
 
 def file_read(filename):
@@ -41,4 +41,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    

@@ -8,20 +8,21 @@
 
 from fnmatch import fnmatch, fnmatchcase
 
+
 def string_fnmatch():
     # fnmatch 函数适合于简单的文件名和字符匹配,更加强大的功能使用 glob 模块
     # *: 撇配任意多个字符
-    result = fnmatch("foo.txt",'*.txt')
+    result = fnmatch("foo.txt", '*.txt')
     print(result)
     # 匹配任意单个字符
     result = fnmatch('foo.txt', '?oo.txt')
     print(result)
     # 匹配数字集合
-    result = fnmatch('Dat45.csv','Dat[0-9]*')
+    result = fnmatch('Dat45.csv', 'Dat[0-9]*')
     print(result)
     # 匹配文件名列表
     names = ['Dat1.csv', 'Dat2.csv', 'config.ini', 'foo.py']
-    result = [name for name in names if fnmatch(name,'Dat*.csv')]
+    result = [name for name in names if fnmatch(name, 'Dat*.csv')]
     print(result)
     # fnmatch() 函数对于底层的操作系统的大小写是敏感的在 mac OS 上面是敏感的
 

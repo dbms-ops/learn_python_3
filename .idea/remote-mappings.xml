@@ -4,6 +4,13 @@
     <list>
       <list>
         <remote-mappings server-id="python@sftp://python@103.227.123.225:6401/data1/python3.6/bin/python3.6" />
+        <remote-mappings server-id="python@sftp://root@172.26.35.3:32210/data1/Python36/bin/python3.6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/tmp/learn_python_3" />
+            </list>
+          </settings>
+        </remote-mappings>
       </list>
     </list>
   </component>

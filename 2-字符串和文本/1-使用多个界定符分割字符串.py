@@ -9,6 +9,7 @@
 
 import re
 
+
 def re_split():
     """
     通过 re.split 指定多个字符构建正则表达式,使用该函数时, 如果使用括号捕获分组,被匹配到的文本也会出现在结果列表中
@@ -30,7 +31,6 @@ def re_split():
     # 不保留分割字符串,但是使用括号分组正则表达式
     like_line_split = re.split(r'(?:,|;|\s)\s*', line)
     print("使用括号元素的正则表达式查找", like_line_split)
-
 
 
 def main():
