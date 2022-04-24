@@ -16,10 +16,4 @@ with open(path,'rb') as file_decoding:
     print(data)
     print(type(data))
     print(data.decode('utf-8'))
-#
-
-
-
-if __name__ == '__main__':
-    pass
 

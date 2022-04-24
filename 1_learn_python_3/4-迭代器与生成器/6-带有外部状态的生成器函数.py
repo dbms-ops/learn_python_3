@@ -34,7 +34,7 @@ def main():
         for line in lines:
             if 'python' in line:
                 for line_no, hline in lines.history:
-                    print('{} : {}'.format(line_no, hline), end='')
+                    print(f'{line_no} : {hline}', end='')
 
 
 if __name__ == "__main__":

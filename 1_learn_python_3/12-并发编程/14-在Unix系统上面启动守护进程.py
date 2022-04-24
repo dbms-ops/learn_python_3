@@ -70,7 +70,7 @@ if __name__ == '__main__':
     PIDFILE = '/tmp/daemon.pid'
 
     if len(sys.argv) != 2:
-        print('Usage: {} [start | stop]'.format(sys.argv[0]), file=sys.stderr)
+        print(f'Usage: {sys.argv[0]} [start | stop]', file=sys.stderr)
         raise SystemExit(1)
     if sys.argv[1] == 'start':
         try:

@@ -21,10 +21,8 @@ def os_open(filename='/tmp/filename.txt'):
     """
     # open a low-level file descriptor
     fd = os.open(filename, os.O_WRONLY | os.O_CREAT)
-    # Turn into a proper file
-    f = open(fd, 'wt', closefd=False)
-    f.write('Hello world\n')
-    f.close()
+    with open(fd, 'wt', closefd=False) as f:
+        f.write('Hello world\n')
 
 
 def main():

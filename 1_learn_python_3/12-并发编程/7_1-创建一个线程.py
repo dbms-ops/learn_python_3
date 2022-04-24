@@ -10,8 +10,7 @@ import urllib.request
 
 def fetch_url(url):
     u = urllib.request.urlopen(url)
-    data = u.read()
-    return data
+    return u.read()
 
 def fetch_url_example():
     pool = ThreadPoolExecutor(10)

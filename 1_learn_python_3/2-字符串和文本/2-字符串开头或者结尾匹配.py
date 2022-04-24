@@ -31,9 +31,13 @@ def file_name_with():
 
 def string_split():
     filename = 'spam.txt'
-    print(filename[-4:] == ".txt")
+    print(filename.endswith(".txt"))
     url = 'http://www.python.org'
-    print(url[:5] == 'http:' or url[:6] == 'https:' or url[:4] == 'ftp:')
+    print(
+        url.startswith('http:')
+        or url.startswith('https:')
+        or url.startswith('ftp:')
+    )
 
 
 def string_math():

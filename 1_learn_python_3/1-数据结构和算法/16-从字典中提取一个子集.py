@@ -39,7 +39,7 @@ def dict_function_derivation():
         'FB': 10.75
     }
 
-    price_over_100 = dict((key,value) for key, value in price.items() if value > 100)
+    price_over_100 = {key: value for key, value in price.items() if value > 100}
     print('price_over_100: ', price_over_100)
 
 

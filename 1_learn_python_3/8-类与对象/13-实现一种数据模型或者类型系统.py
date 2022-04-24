@@ -28,7 +28,7 @@ class Typed(Descriptor):
 
     def __set__(self, instance, value):
         if not instance(value, self.expected_type):
-            raise TypeError("Excepted " + str(len(self.expected_type)))
+            raise TypeError(f"Excepted {len(self.expected_type)}")
         super().__set__(instance, value)
 
 
@@ -55,7 +55,7 @@ class MaxSized(Descriptor):
 
     def __set__(self, instance, value):
         if len(value) >= self.size:
-            raise ValueError("size must be < " + str(self.size))
+            raise ValueError(f"size must be < {str(self.size)}")
         super().__set__(instance, value)
 
 

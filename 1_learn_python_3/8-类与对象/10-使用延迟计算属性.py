@@ -17,10 +17,9 @@ class lazyproperty:
     def __get__(self, instance, owner):
         if instance is None:
             return self
-        else:
-            value = self.func(instance)
-            setattr(instance, self.func.__name__, value)
-            return value
+        value = self.func(instance)
+        setattr(instance, self.func.__name__, value)
+        return value
 
 class Circle:
 

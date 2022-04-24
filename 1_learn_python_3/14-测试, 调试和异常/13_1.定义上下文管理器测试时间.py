@@ -17,7 +17,7 @@ def timeblock(label):
         yield
     finally:
         end = time.perf_counter()
-        print('{}: {}'.format(label, end - start))
+        print(f'{label}: {end - start}')
 
 
 def main():

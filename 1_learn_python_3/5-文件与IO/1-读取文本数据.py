@@ -21,8 +21,7 @@ def read_file(filename):
         Iterate over the lines of the file
     """
     with open(filename, 'rt') as f:
-        for line in f:
-            pass
+        pass
 
 def write_file(filename):
     """

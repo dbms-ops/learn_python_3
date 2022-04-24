@@ -18,10 +18,7 @@ class User():
         self.last_name = last_name
 
     def __repr__(self):
-        return 'User( {}, {}, {} )'.format(
-            self.user_id,
-            self.first_name,
-            self.last_name)
+        return f'User( {self.user_id}, {self.first_name}, {self.last_name} )'
 
 
 

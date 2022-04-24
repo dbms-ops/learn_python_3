@@ -45,9 +45,9 @@ def string_pre_group():
     text1 = '11/27/2012'
     datepat = re.compile(r'(\d+)/(\d+)/(\d+)')
     result = datepat.match(text1)
-    print(result.group(0))
-    print(result.group(1))
-    print(result.group(2))
+    print(result[0])
+    print(result[1])
+    print(result[2])
 
     # 迭代的方式进行匹配
     # 匹配可以使用 $ 进行精确匹配

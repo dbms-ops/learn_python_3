@@ -37,7 +37,7 @@ class ResultHandler():
 
     def handler(self, result):
         self.sequence += 1
-        print('[{}] Got: {}'.format(self.sequence, result))
+        print(f'[{self.sequence}] Got: {result}')
 
 
 def result_handler_example():
@@ -55,7 +55,7 @@ def make_handler():
     def handler(result):
         nonlocal sequence
         sequence += 1
-        print('[{}] Got: {}'.format(sequence, result))
+        print(f'[{sequence}] Got: {result}')
     return handler
 
 

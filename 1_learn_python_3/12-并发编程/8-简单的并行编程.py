@@ -32,7 +32,7 @@ def find_all_robots(logdir):
     :param logdir:
     :return:
     """
-    files = glob.glob(logdir + '/*.log.gz')
+    files = glob.glob(f'{logdir}/*.log.gz')
     all_robots = set()
     for robots in map(find_all_robots, files):
         all_robots.update(robots)

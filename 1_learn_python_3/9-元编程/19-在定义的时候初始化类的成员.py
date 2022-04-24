@@ -22,7 +22,7 @@ class StructTuple(tuple, metaclass=StructTupleMeta):
 
     def __new__(cls, *args, **kwargs):
         if len(args) != len(cls._fields):
-            raise ValueError('{} argumens required'.format(len(cls._fields)))
+            raise ValueError(f'{len(cls._fields)} argumens required')
         return super().__new__(cls, args)
 
 

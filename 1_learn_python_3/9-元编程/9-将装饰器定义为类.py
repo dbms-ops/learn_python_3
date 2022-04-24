@@ -21,10 +21,7 @@ class Profiled:
         return self.__wrapped__(*args, **kwargs)
 
     def __get__(self, instance, owner):
-        if instance is None:
-            return self
-        else:
-            return types.MethodType(self, instance)
+        return self if instance is None else types.MethodType(self, instance)
 
 
 def example():

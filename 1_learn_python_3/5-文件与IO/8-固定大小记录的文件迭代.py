@@ -20,8 +20,6 @@ def open_file():
     """
     with open('somefile.data', 'rb') as f:
         records = iter(partial(f.read, RECORD_SIZE), b'')
-        for I in records:
-            pass
 
 
 
