@@ -16,7 +16,7 @@ class Structure1:
 
     def __init__(self, *args):
         if len(args) != len(self._fields):
-            raise TypeError("Expected {} arguments'".format(len(self._fields)))
+            raise TypeError(f"Expected {len(self._fields)} arguments'")
         # Set the arguments
         for name, value in zip(self._fields, args):
             setattr(self, name, value)
@@ -55,7 +55,7 @@ class Structure2:
 
     def __init__(self, *args, **kwargs):
         if len(args) > len(self._fields):
-            raise TypeError("Except {} arguments".format(self._fields))
+            raise TypeError(f"Except {self._fields} arguments")
 
         # Set all of the positional arguments
         for name, value in zip(self._fields, args):
@@ -67,7 +67,7 @@ class Structure2:
 
         # Check for any remaining unknown arguments
         if kwargs:
-            raise TypeError("Invalid argument(s): {}".format(','.join(kwargs)))
+            raise TypeError(f"Invalid argument(s): {','.join(kwargs)}")
 
 
 def structure2_example():
@@ -89,7 +89,7 @@ class Structure3:
     _fields = []
     def __init__(self, *args, **kwargs):
         if len(args) != len(self._fields):
-            raise TypeError("Excepted {} arguments ".format(len(self._fields)))
+            raise TypeError(f"Excepted {len(self._fields)} arguments ")
 
         # Set the arguments
         for name, value in zip(self._fields, args):
@@ -100,7 +100,7 @@ class Structure3:
         for name in extra_args:
             setattr(self, name, kwargs.pop(name))
         if kwargs:
-            raise TypeError("Duplicate values for {}".format(','.join(kwargs)))
+            raise TypeError(f"Duplicate values for {','.join(kwargs)}")
 
 def structure3_example():
     class Stock(Structure3):

@@ -32,13 +32,9 @@ class MultiMethod:
             if name == 'self':
                 continue
             if parm.annotation is inspect.Parameter.empty:
-                raise TypeError(
-                    'Argument {} must be annotated with a type'.format(name)
-                )
+                raise TypeError(f'Argument {name} must be annotated with a type')
             if not isinstance(parm.annotation, type):
-                raise TypeError(
-                    'Argument {} annotation must be a type'.format(name)
-                )
+                raise TypeError(f'Argument {name} annotation must be a type')
             if parm.default is not inspect.Parameter.empty:
                 self._methods[tuple(types)] = meth
             types.append(parm.annotation)
@@ -51,11 +47,10 @@ class MultiMethod:
         :return:
         """
         types = tuple(type(arg) for arg in args[1:])
-        meth = self._methods.get(types, None)
-        if meth:
+        if meth := self._methods.get(types, None):
             return meth(*args)
         else:
-            raise TypeError('No matching method for types {}'.format(types))
+            raise TypeError(f'No matching method for types {types}')
 
     def __get__(self, instance, owner):
         """
@@ -64,10 +59,7 @@ class MultiMethod:
         :param owner:
         :return:
         """
-        if isinstance is not None:
-            return types.MethodType(self, instance)
-        else:
-            return self
+        return types.MethodType(self, instance) if isinstance is not None else self
 
 
 class MultiDict(dict):
@@ -99,7 +91,7 @@ class MultipleMeta(type):
         return type.__new__(cls, clsname, bases, dict(clsdict))
 
     @classmethod
-    def __prepare__(mcs, name, bases):
+    def __prepare__(cls, name, bases):
         return MultiDict()
 
 

@@ -34,7 +34,7 @@ def data_reduction():
     ]
     min_shares = min(s['shares'] for s in portfolio)
     print(min_shares)
-    print(list(s['shares'] for s in portfolio))
+    print([s['shares'] for s in portfolio])
     min_shares = min(s['shares'] for s in portfolio)
     print(min_shares)
     min_shares = min(portfolio, key=lambda s: s['shares'])

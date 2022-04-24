@@ -35,7 +35,6 @@ def bytearray_example():
             n = f.readinto(buf)
             if n < record_size:
                 break
-                pass
 
 
 def main():

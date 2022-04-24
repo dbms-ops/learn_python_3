@@ -8,7 +8,7 @@
 
 def byte_string():
     data = b'Hello world'
-    print(data[0:5])
+    print(data[:5])
 
     data.startswith(b'Hello')
     print(data.split())
@@ -17,7 +17,7 @@ def byte_string():
 
 def byte_array():
     data = bytearray(b'Hello World')
-    print(data[0:5])
+    print(data[:5])
 
     print(data.startswith(b'hello'))
     print(data.split())

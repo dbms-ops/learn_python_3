@@ -18,7 +18,7 @@ def timethis(label):
         yield
     finally:
         end = time.time()
-        print('{}: {}'.format(label, end - start))
+        print(f'{label}: {end - start}')
 
 
 def main():

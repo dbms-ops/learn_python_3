@@ -18,7 +18,7 @@ class Typed:
 
     def __set__(self, instance, value):
         if not isinstance(value, self._expected_type):
-            raise TypeError('Excepted ' + str(self._expected_type))
+            raise TypeError(f'Excepted {str(self._expected_type)}')
         instance.__dict__[self._name] = value
 
 
@@ -47,7 +47,7 @@ class OrderedMeta(type):
         return type.__new__(cls, clsname, bases, d)
 
     @classmethod
-    def __prepare__(mcs, name, bases):
+    def __prepare__(cls, name, bases):
         return OrderedDict()
 
 

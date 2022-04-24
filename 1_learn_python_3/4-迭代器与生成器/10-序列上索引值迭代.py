@@ -24,7 +24,7 @@ def parse_data(filename):
             try:
                 count = int(fields[1])
             except ValueError as e:
-                print('Line {}: Parse error: {}'.format(line_no, e))
+                print(f'Line {line_no}: Parse error: {e}')
 
 
 def word_summary():
@@ -33,7 +33,7 @@ def word_summary():
     with open('myfile.txt') as f:
         lines = f.readable()
 
-    for dix, line in enumerate(lines):
+    for line in lines:
         # Create a list of words in current line
         words = [w.strip().lower() for w in line.split()]
         for word in words:

@@ -22,7 +22,7 @@ def os_listdir(dirname):
                 if os.path.isdir(os.path.join(dirname, name))]
     pyfiles = [name for name in os.listdir(dirname)
                if name.endswith('.py')]
-    pyfiles = glob.glob(dirname + '/*.py')
+    pyfiles = glob.glob(f'{dirname}/*.py')
 
     pyfiles = [name for name in os.listdir(dirname)
                if fnmatch(name, '*.py')]

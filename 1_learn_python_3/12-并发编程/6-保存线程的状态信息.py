@@ -40,7 +40,7 @@ def test(conn):
         s.send(b'Host: www.python.org\r\n')
         s.send(b'\r\n')
         resp = b''.join(iter(partial(s.recv, 8192), b''))
-    print('Got {} bytes'.format(len(resp)))
+    print(f'Got {len(resp)} bytes')
 
 
 

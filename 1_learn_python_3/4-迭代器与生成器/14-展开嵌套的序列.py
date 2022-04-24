@@ -34,8 +34,7 @@ def flatten_ugly(items, ignore_bytes=(str, bytes)):
     """
     for x in items:
         if isinstance(x, Iterable) and not isinstance(x, ignore_bytes):
-            for i in flatten_ugly(x):
-                yield i
+            yield from flatten_ugly(x)
         else:
             yield x
 

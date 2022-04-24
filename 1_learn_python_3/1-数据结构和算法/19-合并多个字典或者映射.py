@@ -52,8 +52,7 @@ def dict_compation():
         'y': 2,
         'z': 4
     }
-    merged = dict(a)
-    merged.update(b)
+    merged = a | b
     print(merged['x'])
     print(merged['y'])
     # 更改字典 a 后, 并不会合并到 merged 中

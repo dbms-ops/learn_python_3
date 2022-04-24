@@ -12,7 +12,7 @@ from unittest import TestCase
 from unittest.mock import patch
 
 def url_print(protocol, host, domain):
-    url = '{}://{}.{}'.format(protocol,host,domain)
+    url = f'{protocol}://{host}.{domain}'
     print(url)
 class TestURLPrint(TestCase):
     def test_url_gets_to_stdout(self):

@@ -27,7 +27,7 @@ def create_size_file():
 def reassign_slice():
     data = memory_map(filename='/tmp/data')
     print(len(data))
-    print(data[0:10])
+    print(data[:10])
     data[0:11] = b'Hello World'
     data.close()
 
@@ -38,7 +38,7 @@ def verify_change():
 
     with memory_map('/tmp/data') as m:
         print(len(m))
-        print(m[0:11])
+        print(m[:11])
 
 
 def main():

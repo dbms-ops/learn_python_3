@@ -16,9 +16,7 @@ def typed_property(name, expected_type):
     @prop.setter
     def prop(self, value):
         if not isinstance(value, expected_type):
-            raise TypeError(
-                '{} must be a {}'.format(name, expected_type)
-            )
+            raise TypeError(f'{name} must be a {expected_type}')
         setattr(self, storage_name, value)
 
     return prop
